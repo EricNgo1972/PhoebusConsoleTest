@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="5.0.1" />
+    <PackageReference Include="SPC.Cloud" Version="1.5.301" />
+    <PackageReference Include="SPC.CORE" Version="1.5.3" />
+    <PackageReference Include="SPC.CORE.COM" Version="1.5.3" />
+    <PackageReference Include="SPC.CORE.UsrMan" Version="1.5.3" />
+    <PackageReference Include="SPC.Helper" Version="1.5.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+</Project>
